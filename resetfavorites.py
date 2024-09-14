@@ -1,9 +1,20 @@
 import json
 import os 
+import platform
 
 userPath = os.path.expanduser("~")
-vcvPath = f"{userPath}\\AppData\\Local\\Rack2"
-settingsPath = f"{vcvPath}\\settings.json"
+
+# Set VCV Rack path based on operating system
+os_name = platform.system()
+if os_name == "Windows":
+    vcvPath = f"{userPath}/AppData/Local/Rack2"
+elif os_name == "Darwin":
+    vcvPath = f"{userPath}/Library/Application Support/Rack2"
+else:
+    print(f"Unsupported operating system: {os_name}")
+    exit()
+
+settingsPath = f"{vcvPath}/settings.json"
 
 print("This script will remove all favorites from VCV Rack")
 print() 

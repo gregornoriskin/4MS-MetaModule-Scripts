@@ -1,11 +1,21 @@
 import json
 import os
+import platform
 
-# Paths to the JSON files
 userPath = os.path.expanduser("~")
-vcvPath = f"{userPath}\\AppData\\Local\\Rack2"
-settingsPath = f"{vcvPath}\\settings.json"
-favoriteModulesPath = ".\\favoriteModules.json"
+ 
+# Set VCV Rack path based on operating system
+os_name = platform.system()
+if os_name == "Windows":
+    vcvPath = f"{userPath}/AppData/Local/Rack2"
+elif os_name == "Darwin":
+    vcvPath = f"{userPath}/Library/Application Support/Rack2"
+else:
+    print(f"Unsupported operating system: {os_name}")
+    exit()
+
+settingsPath = f"{vcvPath}/settings.json"
+favoriteModulesPath = "./favoriteModules.json"
 
 print("This script will import the modules in favoriteModules.json into VCV Rack")
 print() 
