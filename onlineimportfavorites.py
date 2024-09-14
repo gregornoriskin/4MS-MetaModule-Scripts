@@ -19,8 +19,8 @@ else:
 settingsPath = f"{vcvPath}/settings.json"
 
 # URL to the YAML files
-pluginUrl = "https://metamodule.info/dl/plugins.yml"
-builtinUrl = "https://metamodule.info/dl/built_in.yml"
+pluginUrl = "https://metamodule.4ms.info/dl/plugins.yml"
+builtinUrl = "https://metamodule.4ms.info/dl/built_in.yml"
 
 print("This script will import the supported module list from metamodule.info into VCV Rack as favorite modules")
 print() 
