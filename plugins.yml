@@ -1,0 +1,1330 @@
+Airwin2Rack:
+    Slug: Airwin2Rack
+    PluginName: Airwindows
+    LastUpdated: ""
+    License: MIT
+    LicenseURL: ""
+    Author: '@baconpaul, @airwindows'
+    AuthorEmail: ""
+    AuthorWebsite: https://www.airwindows.com/
+    ManualURL: https://github.com/baconpaul/airwin2rack/blob/main/doc/manual.md
+    MetaModulePluginMaintainer: Dan Green (for now)
+    MetaModulePluginMaintainerEmail: 4ms@4mscompany.com
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: Splits the VCV Rack module 'Airwin2Rack' into separate modules for each FX
+    Type: external
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: Airwin2Rack
+          Type: external
+          SDKVersion: "1.0"
+          Version: 2.13.0
+          MetaModulePluginLink: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/Airwindows.mmplugin
+          ListPath: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/Airwindows.mmplugin
+          MetaModuleIncludedModules:
+            - ADClip7
+            - ADClip8
+            - ADT
+            - AQuickVoiceClip
+            - Acceleration
+            - Acceleration2
+            - Air
+            - Air2
+            - Air3
+            - Apicolypse
+            - AtmosphereBuss
+            - AtmosphereChannel
+            - Aura
+            - AutoPan
+            - AverMatrix
+            - Average
+            - Balanced
+            - BassAmp
+            - BassDrive
+            - BassKit
+            - Baxandall
+            - Baxandall2
+            - Beam
+            - BigAmp
+            - Biquad
+            - Biquad2
+            - BiquadDouble
+            - BiquadHiLo
+            - BiquadNonLin
+            - BiquadOneHalf
+            - BiquadPlus
+            - BiquadStack
+            - BiquadTriple
+            - BitGlitter
+            - BitShiftGain
+            - BitShiftPan
+            - Bite
+            - BlockParty
+            - BrassRider
+            - BrightAmbience
+            - BrightAmbience2
+            - BrightAmbience3
+            - BuildATPDF
+            - BussColors4
+            - ButterComp
+            - ButterComp2
+            - C5RawBuss
+            - C5RawChannel
+            - CStrip
+            - CStrip2
+            - Cabs
+            - Calibre
+            - Capacitor
+            - Capacitor2
+            - Chamber
+            - Chamber2
+            - Channel4
+            - Channel5
+            - Channel6
+            - Channel7
+            - Channel8
+            - Channel9
+            - Chorus
+            - ChorusEnsemble
+            - ChromeOxide
+            - Cider
+            - ClearCoat
+            - ClipOnly2
+            - ClipSoftly
+            - CloudCoat
+            - Coils
+            - Coils2
+            - Cojones
+            - Compresaturator
+            - Console0Buss
+            - Console0Channel
+            - Console4Buss
+            - Console4Channel
+            - Console5Buss
+            - Console5Channel
+            - Console5DarkCh
+            - Console6Buss
+            - Console6Channel
+            - Console7Buss
+            - Console7Cascade
+            - Console7Channel
+            - Console7Crunch
+            - Console8BussHype
+            - Console8BussIn
+            - Console8BussOut
+            - Console8ChannelHype
+            - Console8ChannelIn
+            - Console8ChannelOut
+            - Console8LiteBuss
+            - Console8LiteChannel
+            - Console8SubHype
+            - Console8SubIn
+            - Console8SubOut
+            - Console9Buss
+            - Console9Channel
+            - ConsoleLABuss
+            - ConsoleLAChannel
+            - ConsoleMCBuss
+            - ConsoleMCChannel
+            - ConsoleMDBuss
+            - ConsoleMDChannel
+            - ConsoleXBuss
+            - ConsoleXChannel
+            - ContentHideD
+            - CreamCoat
+            - Creature
+            - CrickBass
+            - CrunchCoat
+            - CrunchyGrooveWear
+            - Crystal
+            - DCVoltage
+            - Dark
+            - DarkNoise
+            - DeBess
+            - DeEss
+            - DeHiss
+            - DeRez
+            - DeRez2
+            - DeRez3
+            - Deckwrecka
+            - Density
+            - Density2
+            - Desk
+            - Desk4
+            - DigitalBlack
+            - Dirt
+            - Discontinuity
+            - Distance
+            - Distance2
+            - Distance3
+            - Distortion
+            - DitherFloat
+            - DitherMeDiskers
+            - DitherMeTimbers
+            - Ditherbox
+            - DoublePaul
+            - Doublelay
+            - Drive
+            - DrumSlam
+            - DubCenter
+            - DubSub
+            - Dubly
+            - DustBunny
+            - Dynamics
+            - Dyno
+            - EQ
+            - EdIsDim
+            - Edge
+            - Elation
+            - ElectroHat
+            - Energy
+            - Energy2
+            - Ensemble
+            - EveryConsole
+            - EverySlew
+            - EveryTrim
+            - Exciter
+            - Facet
+            - FathomFive
+            - FinalClip
+            - FireAmp
+            - Flipity
+            - Floor
+            - Flutter
+            - Flutter2
+            - Focus
+            - Fracture
+            - Fracture2
+            - FromTape
+            - Galactic
+            - Galactic2
+            - GalacticVibe
+            - Gatelope
+            - GlitchShifter
+            - GoldenSlew
+            - Golem
+            - GrindAmp
+            - Gringer
+            - GrooveWear
+            - GuitarConditioner
+            - HardVacuum
+            - HermeTrim
+            - Hermepass
+            - HighGlossDither
+            - HighImpact
+            - Highpass
+            - Highpass2
+            - Holt
+            - Holt2
+            - Hombre
+            - Huge
+            - Hull
+            - Hull2
+            - Hype
+            - HypersonX
+            - Hypersonic
+            - Infinity
+            - Infinity2
+            - Inflamer
+            - Infrasonic
+            - Interstage
+            - IronOxide5
+            - IronOxideClassic
+            - IronOxideClassic2
+            - Isolator
+            - Isolator2
+            - Kalman
+            - LRFlipTimer
+            - LeadAmp
+            - LeftoMono
+            - LilAmp
+            - Logical4
+            - Loud
+            - Lowpass
+            - Lowpass2
+            - Luxor
+            - MSFlipTimer
+            - MV
+            - MV2
+            - MackEQ
+            - Mackity
+            - MatrixVerb
+            - Melt
+            - MidAmp
+            - MidSide
+            - MoNoam
+            - Mojo
+            - Monitoring
+            - Monitoring2
+            - Monitoring3
+            - MultiBandDistortion
+            - NCSeventeen
+            - NaturalizeDither
+            - Neverland
+            - Nikola
+            - NodeDither
+            - Noise
+            - NonlinearSpace
+            - NotJustAnotherCD
+            - NotJustAnotherDither
+            - OneCornerClip
+            - OrbitKick
+            - Overheads
+            - PDBuss
+            - PDChannel
+            - Pafnuty
+            - Pafnuty2
+            - Parametric
+            - PaulDither
+            - PaulWide
+            - PeaksOnly
+            - Pear
+            - Pear2
+            - PhaseNudge
+            - PitchDelay
+            - PitchNasty
+            - PlatinumSlew
+            - PocketVerbs
+            - Pockey
+            - Pockey2
+            - Podcast
+            - PodcastDeluxe
+            - Point
+            - Pop
+            - Pop2
+            - Pop3
+            - PowerSag
+            - PowerSag2
+            - Precious
+            - Preponderant
+            - Pressure4
+            - Pressure5
+            - PurestAir
+            - PurestConsole2Buss
+            - PurestConsole2Channel
+            - PurestConsole3Buss
+            - PurestConsole3Channel
+            - PurestConsoleBuss
+            - PurestConsoleChannel
+            - PurestDrive
+            - PurestEcho
+            - PurestFade
+            - PurestGain
+            - PurestSquish
+            - PurestWarm
+            - PurestWarm2
+            - Pyewacket
+            - RawGlitters
+            - RawTimbers
+            - Recurve
+            - Remap
+            - ResEQ
+            - ResEQ2
+            - Reverb
+            - Righteous4
+            - RightoMono
+            - SampleDelay
+            - Shape
+            - ShortBuss
+            - SideDull
+            - Sidepass
+            - Silhouette
+            - Sinew
+            - SingleEndedTriode
+            - Slew
+            - Slew2
+            - Slew3
+            - SlewOnly
+            - SlewSonic
+            - Smooth
+            - SoftGate
+            - SpatializeDither
+            - Spiral
+            - Spiral2
+            - Srsly
+            - Srsly2
+            - Srsly3
+            - StarChild
+            - StarChild2
+            - StereoChorus
+            - StereoDoubler
+            - StereoEnsemble
+            - StereoFX
+            - StoneFireComp
+            - Stonefire
+            - StudioTan
+            - SubTight
+            - SubsOnly
+            - Surge
+            - SurgeTide
+            - Sweeten
+            - Swell
+            - TPDFDither
+            - TPDFWide
+            - Tape
+            - TapeDelay
+            - TapeDelay2
+            - TapeDither
+            - TapeDust
+            - TapeFat
+            - Texturize
+            - TexturizeMS
+            - Thunder
+            - ToTape5
+            - ToTape6
+            - ToVinyl4
+            - ToneSlant
+            - TransDesk
+            - TremoSquare
+            - Tremolo
+            - Trianglizer
+            - TripleSpread
+            - Tube
+            - Tube2
+            - TubeDesk
+            - UltrasonX
+            - Ultrasonic
+            - UltrasonicLite
+            - UltrasonicMed
+            - UnBox
+            - VariMu
+            - Verbity
+            - Verbity2
+            - Vibrato
+            - VinylDither
+            - VoiceOfTheStarship
+            - VoiceTrick
+            - Weight
+            - Wider
+            - Wolfbot
+            - XBandpass
+            - XHighpass
+            - XLowpass
+            - XNotch
+            - XRegion
+            - YBandpass
+            - YHighpass
+            - YLowpass
+            - YNotBandpass
+            - YNotHighpass
+            - YNotLowpass
+            - YNotNotch
+            - YNotch
+            - ZBandpass
+            - ZBandpass2
+            - ZHighpass
+            - ZHighpass2
+            - ZLowpass
+            - ZLowpass2
+            - ZNotch
+            - ZNotch2
+            - ZOutputStage
+            - ZRegion
+            - ZRegion2
+            - curve
+            - kCathedral
+            - kCathedral2
+            - kCathedral3
+            - kChamberAR
+            - kGuitarHall
+            - kPlate140
+            - kPlate240
+            - kPlateA
+            - kPlateB
+            - kPlateC
+            - kPlateD
+            - uLawDecode
+            - uLawEncode
+          MetaModuleIncludedSlugs:
+            - Airwin2Rack
+Bogaudio:
+    Slug: Bogaudio
+    PluginName: Bogaudio
+    LastUpdated: ""
+    License: GPL-3.0-or-later
+    LicenseURL: ""
+    Author: Matt Demanett
+    AuthorEmail: mattdemanett@gmail.com
+    AuthorWebsite: https://github.com/mdemanett
+    ManualURL: https://github.com/bogaudio/BogaudioModules/blob/master/README.md
+    MetaModulePluginMaintainer: 4ms Company
+    MetaModulePluginMaintainerEmail: 4ms@4mscompany.com
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: ""
+    Type: external
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: Bogaudio
+          Type: external
+          SDKVersion: "1.0"
+          Version: 2.4.45
+          MetaModulePluginLink: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/Bogaudio.mmplugin
+          ListPath: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/Bogaudio.mmplugin
+          MetaModuleIncludedModules:
+            - AD
+            - ADSR
+            - AMRM
+            - ASR
+            - Additator
+            - AddrSeq
+            - Arp
+            - Assign
+            - Bool
+            - CVD
+            - Chirp
+            - Clpr
+            - Cmp
+            - CmpDist
+            - DADSRH
+            - DADSRHPlus
+            - DGate
+            - Detune
+            - EQ
+            - EQS
+            - Edge
+            - EightFO
+            - EightOne
+            - FFB
+            - FMOp
+            - FlipFlop
+            - Follow
+            - FourFO
+            - FourMan
+            - Inv
+            - LFO
+            - LLFO
+            - LLPG
+            - LPG
+            - LVCF
+            - LVCO
+            - Lgsw
+            - Lmtr
+            - Manual
+            - Matrix18
+            - Matrix44
+            - Matrix81
+            - Matrix88
+            - MegaGate
+            - Mix1
+            - Mix2
+            - Mix4
+            - Mix8
+            - Mono
+            - Mult
+            - Mumix
+            - Mute8
+            - Noise
+            - Nsgt
+            - Offset
+            - OneEight
+            - PEQ
+            - PEQ14
+            - PEQ6
+            - Pan
+            - Pgmr
+            - PolyCon16
+            - PolyCon8
+            - PolyMult
+            - PolyOff16
+            - PolyOff8
+            - Pressor
+            - Pulse
+            - RGate
+            - Reftone
+            - SampleHold
+            - Shaper
+            - ShaperPlus
+            - Sine
+            - Slew
+            - Stack
+            - Sums
+            - Switch
+            - Switch1616
+            - Switch18
+            - Switch44
+            - Switch81
+            - Switch88
+            - UMix
+            - Unison
+            - VCA
+            - VCAmp
+            - VCF
+            - VCM
+            - VCO
+            - VU
+            - Velo
+            - Vish
+            - Walk
+            - Walk2
+            - XCO
+            - XFade
+          MetaModuleIncludedSlugs:
+            - Bogaudio-AD
+            - Bogaudio-ADSR
+            - Bogaudio-AMRM
+            - Bogaudio-ASR
+            - Bogaudio-Additator
+            - Bogaudio-AddrSeq
+            - Bogaudio-Arp
+            - Bogaudio-Assign
+            - Bogaudio-Bool
+            - Bogaudio-CVD
+            - Bogaudio-Chirp
+            - Bogaudio-Clpr
+            - Bogaudio-Cmp
+            - Bogaudio-CmpDist
+            - Bogaudio-DADSRH
+            - Bogaudio-DADSRHPlus
+            - Bogaudio-DGate
+            - Bogaudio-Detune
+            - Bogaudio-EQ
+            - Bogaudio-EQS
+            - Bogaudio-Edge
+            - Bogaudio-EightFO
+            - Bogaudio-EightOne
+            - Bogaudio-FFB
+            - Bogaudio-FMOp
+            - Bogaudio-FlipFlop
+            - Bogaudio-Follow
+            - Bogaudio-FourFO
+            - Bogaudio-FourMan
+            - Bogaudio-Inv
+            - Bogaudio-LFO
+            - Bogaudio-LLFO
+            - Bogaudio-LLPG
+            - Bogaudio-LPG
+            - Bogaudio-LVCF
+            - Bogaudio-LVCO
+            - Bogaudio-Lgsw
+            - Bogaudio-Lmtr
+            - Bogaudio-Manual
+            - Bogaudio-Matrix18
+            - Bogaudio-Matrix44
+            - Bogaudio-Matrix81
+            - Bogaudio-Matrix88
+            - Bogaudio-MegaGate
+            - Bogaudio-Mix1
+            - Bogaudio-Mix2
+            - Bogaudio-Mix4
+            - Bogaudio-Mix8
+            - Bogaudio-Mono
+            - Bogaudio-Mult
+            - Bogaudio-Mumix
+            - Bogaudio-Mute8
+            - Bogaudio-Noise
+            - Bogaudio-Nsgt
+            - Bogaudio-Offset
+            - Bogaudio-OneEight
+            - Bogaudio-PEQ
+            - Bogaudio-PEQ14
+            - Bogaudio-PEQ6
+            - Bogaudio-Pan
+            - Bogaudio-Pgmr
+            - Bogaudio-PolyCon16
+            - Bogaudio-PolyCon8
+            - Bogaudio-PolyMult
+            - Bogaudio-PolyOff16
+            - Bogaudio-PolyOff8
+            - Bogaudio-Pressor
+            - Bogaudio-Pulse
+            - Bogaudio-RGate
+            - Bogaudio-Reftone
+            - Bogaudio-SampleHold
+            - Bogaudio-Shaper
+            - Bogaudio-ShaperPlus
+            - Bogaudio-Sine
+            - Bogaudio-Slew
+            - Bogaudio-Stack
+            - Bogaudio-Sums
+            - Bogaudio-Switch
+            - Bogaudio-Switch1616
+            - Bogaudio-Switch18
+            - Bogaudio-Switch44
+            - Bogaudio-Switch81
+            - Bogaudio-Switch88
+            - Bogaudio-UMix
+            - Bogaudio-Unison
+            - Bogaudio-VCA
+            - Bogaudio-VCAmp
+            - Bogaudio-VCF
+            - Bogaudio-VCM
+            - Bogaudio-VCO
+            - Bogaudio-VU
+            - Bogaudio-Velo
+            - Bogaudio-Vish
+            - Bogaudio-Walk
+            - Bogaudio-Walk2
+            - Bogaudio-XCO
+            - Bogaudio-XFade
+ChowDSP:
+    Slug: ChowDSP
+    PluginName: ChowDSP
+    LastUpdated: ""
+    License: GPL-3.0-or-later
+    LicenseURL: ""
+    Author: Jatin Chowdhury
+    AuthorEmail: jatin@ccrma.stanford.edu
+    AuthorWebsite: https://ccrma.stanford.edu/~jatin/chowdsp
+    ManualURL: https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md
+    MetaModulePluginMaintainer: 4ms Company
+    MetaModulePluginMaintainerEmail: 4ms@4mscompany.com
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: ""
+    Type: external
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: ChowDSP
+          Type: external
+          SDKVersion: "1.0"
+          Version: 2.0.1
+          MetaModulePluginLink: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/ChowDSP.mmplugin
+          ListPath: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/ChowDSP.mmplugin
+          MetaModuleIncludedModules:
+            - ChowTape
+            - ChowPhaserFeedback
+            - ChowPhaserMod
+            - ChowModal
+            - ChowDer
+            - Warp
+            - Werner Filter
+            - ChowPulse
+            - ChowTape Compression
+            - ChowTape Chew
+            - ChowTape Degrade
+            - ChowTape Loss
+          MetaModuleIncludedSlugs:
+            - ChowTape
+            - ChowPhaserFeedback
+            - ChowPhaserMod
+            - ChowModal
+            - ChowDer
+            - Warp
+            - Werner
+            - ChowPulse
+            - ChowTapeComp
+            - ChowTapeChew
+            - ChowTapeDegrade
+            - ChowTapeLoss
+CountModula:
+    Slug: CountModula
+    PluginName: Count Modula
+    LastUpdated: ""
+    License: GPL-3.0-only
+    LicenseURL: ""
+    Author: Adam Verspaget
+    AuthorEmail: CountModula@gmail.com
+    AuthorWebsite: https://github.com/countmodula
+    ManualURL: https://github.com/countmodula/VCVRackPlugins/blob/master/MANUAL.md
+    MetaModulePluginMaintainer: 4ms Company
+    MetaModulePluginMaintainerEmail: 4ms@4mscompany.com
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: ""
+    Type: external
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: CountModula
+          Type: external
+          SDKVersion: "1.0"
+          Version: 2.5.0
+          MetaModulePluginLink: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14-1/CountModula.mmplugin
+          ListPath: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14-1/CountModula.mmplugin
+          MetaModuleIncludedModules:
+            - Analogue Shift Register
+            - Attenuator
+            - Attenuverter
+            - Bar Graph
+            - Basic 8 Step Sequencer
+            - Binary Sequencer
+            - Boolean AND Gate
+            - Boolean OR Gate
+            - Boolean VC Inverter
+            - Boolean XOR Gate
+            - Burst Generator
+            - Burst Generator 64
+            - Bus Route
+            - Bus Route
+            - Carousel Rotating Router
+            - Chances - bernoulli gate
+            - Clock Divider
+            - Clocked Random Gates
+            - Comparator
+            - CV Spreader
+            - Euclidean Sequencer
+            - Event Arranger
+            - Countdown
+            - Countdown 5
+            - Fade-in/Fade-out and Record Controller
+            - Gated Comparator
+            - Gate Delay
+            - Gate Modifier
+            - Tapped Gate Delay
+            - 8 x 8 Gate Sequencer
+            - 8 x 16 Gate Sequencer
+            - Mangler
+            - Signal Manifold
+            - Manual CV Generator
+            - Polyphonic Manual CV Generator
+            - Manual Gate
+            - Master Reset Controller
+            - Matrix Combiner
+            - Matrix Mixer
+            - Minimus Maximus
+            - Mixer
+            - Morph Shaper
+            - Multiple
+            - Multiplexer
+            - Multi-step Sequencer
+            - Mute
+            - Mute-iple
+            - Nibble Trigger Sequencer
+            - Octet Trigger Sequencer
+            - Offset Generator
+            - Gate to Trigger Converter
+            - Polyrhythmic Generator MkII
+            - Random Access Switch 1-8
+            - Random Access Switch 8-1
+            - Rectifier
+            - Sample & Hold
+            - Super Sample & Hold
+            - 4Bit Sequence Encoder
+            - 64 Step Sequencer
+            - 16 Step Sequencer
+            - 8 Step Sequencer
+            - Shepard Generator
+            - 16 Step Shift Register
+            - 32 Step Shift Register
+            - D Flip Flop
+            - T Flip Flop
+            - SR Flip Flop
+            - Dual SR Flip Flop
+            - Dual T Flip Flop
+            - Slope Detector
+            - CV Stack
+            - Startup Delay
+            - Dual 8 Step Sequencer
+            - 'Sub Harmonic Generator '
+            - Switch 1-8
+            - Switch 8-1
+            - Switch 1-16
+            - Switch 16-1
+            - Manual DPDT Switch
+            - Manual 3 Input Switch
+            - Manual 4 Input Switch
+            - Trigger Sequencer (8 Step)
+            - Trigger Sequencer (16 Step)
+            - Voltage Controlled Frequency Divider MkII
+            - Voltage Controlled Polarizer
+            - Voltage Controlled Pulse Divider
+            - Voltage Controlled Switch
+            - Voltage Inverter
+            - Voltage Scaler
+            - Binary Comparator
+            - 12 x 16 Gate Sequencer
+          MetaModuleIncludedSlugs:
+            - AnalogueShiftRegister
+            - Attenuator
+            - Attenuverter
+            - BarGraph
+            - BasicSequencer8
+            - BinarySequencer
+            - BooleanAND
+            - BooleanOR
+            - BooleanVCNOT
+            - BooleanXOR
+            - BurstGenerator
+            - BurstGenerator64
+            - BusRoute
+            - BusRoute2
+            - Carousel
+            - Chances
+            - ClockDivider
+            - ClockedRandomGates
+            - Comparator
+            - CVSpreader
+            - Euclid
+            - EventArranger
+            - EventTimer
+            - EventTimer2
+            - Fade
+            - GatedComparator
+            - GateDelay
+            - GateModifier
+            - GateDelayMT
+            - GateSequencer8
+            - GateSequencer16
+            - Mangler
+            - Manifold
+            - ManualCV
+            - ManualCV2
+            - ManualGate
+            - MasterReset
+            - MatrixCombiner
+            - MatrixMixer
+            - MinimusMaximus
+            - Mixer
+            - MorphShaper
+            - Mult
+            - Multiplexer
+            - MultiStepSequencer
+            - Mute
+            - Mute-iple
+            - NibbleTriggerSequencer
+            - OctetTriggerSequencer
+            - OffsetGenerator
+            - G2T
+            - PolyrhythmicGeneratorMkII
+            - RandomAccessSwitch18
+            - RandomAccessSwitch81
+            - Rectifier
+            - SampleAndHold
+            - SampleAndHold2
+            - SequenceEncoder
+            - Sequencer64
+            - Sequencer16
+            - Sequencer8
+            - ShepardGenerator
+            - ShiftRegister16
+            - ShiftRegister32
+            - SingleDFlipFlop
+            - SingleTFlipFlop
+            - SingleSRFlipFlop
+            - SRFlipFlop
+            - TFlipFlop
+            - SlopeDetector
+            - Stack
+            - StartupDelay
+            - StepSequencer8
+            - SubHarmonicGenerator
+            - Switch1To8
+            - Switch8To1
+            - Switch1To16
+            - Switch16To1
+            - Switch2
+            - Switch3
+            - Switch4
+            - TriggerSequencer8
+            - TriggerSequencer16
+            - VCFrequencyDividerMkII
+            - VCPolarizer
+            - VCPulseDivider
+            - VoltageControlledSwitch
+            - VoltageInverter
+            - VoltageScaler
+            - BinaryComparator
+            - GateSequencer16b
+Fundamental:
+    Slug: Fundamental
+    PluginName: VCV Free
+    LastUpdated: ""
+    License: GPL-3.0-or-later
+    LicenseURL: ""
+    Author: VCV
+    AuthorEmail: support@vcvrack.com
+    AuthorWebsite: https://vcvrack.com/
+    ManualURL: https://vcvrack.com/Free#manual
+    MetaModulePluginMaintainer: 4ms Company
+    MetaModulePluginMaintainerEmail: 4ms@4mscompany.com
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: Ports of Rack Fundamental plugins
+    Type: external
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: Fundamental
+          Type: external
+          SDKVersion: "1.0"
+          Version: 2.6.0
+          MetaModulePluginLink: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/Fundamental.mmplugin
+          ListPath: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/Fundamental.mmplugin
+          MetaModuleIncludedModules:
+            - 8vert
+            - ADSR EG
+            - CV Mix
+            - Compare
+            - Fade
+            - Gates
+            - LFO
+            - Logic
+            - Mid/Side
+            - Mix
+            - Mult
+            - Mutes
+            - Noise
+            - Octave
+            - Process
+            - Pulses
+            - Push
+            - Random
+            - Random Values
+            - Rescale
+            - SEQ 3
+            - S&H Analog Shift Register
+            - Sequential Switch 1 to 4
+            - Sequential Switch 4 to 1
+            - Unity
+            - VCA (2 chan)
+            - VCA
+            - VCF
+            - VCA Mixer
+            - VCO
+            - Quantizer
+          MetaModuleIncludedSlugs:
+            - 8vert
+            - ADSR
+            - CVMix
+            - Compare
+            - Fade
+            - Gates
+            - LFO
+            - Logic
+            - MidSide
+            - Mixer
+            - Mult
+            - Mutes
+            - Noise
+            - Octave
+            - Process
+            - Pulses
+            - Push
+            - Random
+            - RandomValues
+            - Rescale
+            - SEQ3
+            - SHASR
+            - SequentialSwitch1
+            - SequentialSwitch2
+            - Unity
+            - VCA
+            - VCA-1
+            - VCF
+            - VCMixer
+            - VCO
+            - Quantizer
+Geodesics:
+    Slug: Geodesics
+    PluginName: Geodesics
+    LastUpdated: ""
+    License: GPL-3.0-only
+    LicenseURL: ""
+    Author: Pyer & Marc Boulé
+    AuthorEmail: geodesics.modular@outlook.com
+    AuthorWebsite: https://www.pyer.be
+    ManualURL: https://marcboule.github.io/Geodesics/
+    MetaModulePluginMaintainer: 4ms Company
+    MetaModulePluginMaintainerEmail: 4ms@4mscompany.com
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: ""
+    Type: external
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: Geodesics
+          Type: external
+          SDKVersion: "1.0"
+          Version: 2.3.2
+          MetaModulePluginLink: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/Geodesics.mmplugin
+          ListPath: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/Geodesics.mmplugin
+          MetaModuleIncludedModules:
+            - BlackHoles
+            - Pulsars
+            - Branes
+            - Ions
+            - Entropia
+            - Energy
+            - DarkEnergy
+            - Torus
+            - Fate
+          MetaModuleIncludedSlugs:
+            - BlackHoles
+            - Pulsars
+            - Branes
+            - Ions
+            - Entropia
+            - Energy
+            - DarkEnergy
+            - Torus
+            - Fate
+NANOModules:
+    Slug: NANOModules
+    PluginName: NANO Modules
+    LastUpdated: ""
+    License: Proprietary
+    LicenseURL: ""
+    Author: Jorge Gutierrez
+    AuthorEmail: jorge@nano-modules.com
+    AuthorWebsite: http://nano-modules.com
+    ManualURL: http://nano-modules.com
+    MetaModulePluginMaintainer: 4ms Company
+    MetaModulePluginMaintainerEmail: 4ms@4mscompany.com
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: ""
+    Type: external
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: NANOModules
+          Type: external
+          SDKVersion: "1.0"
+          Version: 2.3.6
+          MetaModulePluginLink: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/NanoModules.mmplugin
+          ListPath: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/NanoModules.mmplugin
+          MetaModuleIncludedModules:
+            - MAR
+            - FONT
+            - ALT
+            - QUART
+            - ONA
+            - SERRA
+            - CEQ
+            - ST MAR
+            - Performance Mixer
+            - VCV Random
+            - EXP4
+          MetaModuleIncludedSlugs:
+            - MAR
+            - FONT
+            - ALT
+            - QUART
+            - ONA
+            - SERRA
+            - CEQ
+            - STMAR
+            - PerformanceMixer
+            - VCVRANDOM
+            - EXP4
+OrangeLine:
+    Slug: OrangeLine
+    PluginName: OrangeLine
+    LastUpdated: ""
+    License: GPL-3.0-only
+    LicenseURL: ""
+    Author: Dieter Stubler
+    AuthorEmail: dieter.stubler@googlemail.com
+    AuthorWebsite: https://github.com/Stubs42/OrangeLine
+    ManualURL: https://github.com/Stubs42/OrangeLine/blob/2.0/README.md
+    MetaModulePluginMaintainer: 4ms Company
+    MetaModulePluginMaintainerEmail: 4ms@4mscompany.com
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: ""
+    Type: external
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: OrangeLine
+          Type: external
+          SDKVersion: "1.0"
+          Version: 2.4.5
+          MetaModulePluginLink: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/OrangeLine.mmplugin
+          ListPath: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/OrangeLine.mmplugin
+          MetaModuleIncludedModules:
+            - Fence
+            - Swing
+            - Mother
+            - Phrase
+            - Dejavu
+            - Gator
+            - Resc
+            - Morph
+            - Morpheus
+          MetaModuleIncludedSlugs:
+            - Fence
+            - Swing
+            - Mother
+            - Phrase
+            - Dejavu
+            - Gator
+            - Resc
+            - Morph
+            - Morpheus
+RebelTech:
+    Slug: RebelTech
+    PluginName: RebelTech
+    LastUpdated: ""
+    License: GPL-2.0-or-later
+    LicenseURL: ""
+    Author: Ewan Hemingway
+    AuthorEmail: ""
+    AuthorWebsite: ""
+    ManualURL: https://www.rebeltech.org/
+    MetaModulePluginMaintainer: 4ms Company
+    MetaModulePluginMaintainerEmail: 4ms@4mscompany.com
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: Ports of Rebel Tech plugins
+    Type: external
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: RebelTech
+          Type: external
+          SDKVersion: "1.0"
+          Version: 2.0.1
+          MetaModulePluginLink: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/RebelTech.mmplugin
+          ListPath: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/RebelTech.mmplugin
+          MetaModuleIncludedModules:
+            - CLK
+            - Klasmata
+            - Logoi
+            - Phoreo
+            - Stoicheia
+            - Tonic
+          MetaModuleIncludedSlugs:
+            - CLK
+            - Klasmata
+            - Logoi
+            - Phoreo
+            - Stoicheia
+            - Tonic
+StellareModular:
+    Slug: StellareModular
+    PluginName: Stellare Modular - Turing Machine
+    LastUpdated: ""
+    License: Proprietary
+    LicenseURL: ""
+    Author: Stellare Modular
+    AuthorEmail: stellaremodular@gmail.com
+    AuthorWebsite: https://www.facebook.com/stellaremodular
+    ManualURL: https://github.com/stellare-modular/vcv-rack/blob/master/README.md
+    MetaModulePluginMaintainer: Stellare Modular
+    MetaModulePluginMaintainerEmail: stellaremodular@gmail.com
+    MetaModulePluginMaintainerURL: https://www.facebook.com/stellaremodular
+    MetaModuleManualURL: ""
+    Description: Stellare Modular Turing Machine Plugin for MetaModule
+    Type: external
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: StellareModular
+          Type: external
+          SDKVersion: "1.0"
+          Version: 2.1.0
+          MetaModulePluginLink: /dl/thirdparty/StellarModular/StellareModular.mmplugin
+          ListPath: /srv/dl/thirdparty/StellarModular/StellareModular.mmplugin
+          MetaModuleIncludedModules:
+            - Turing Machine
+          MetaModuleIncludedSlugs:
+            - TuringMachine
+StellareModular-CreativeSuite:
+    Slug: StellareModular-CreativeSuite
+    PluginName: Stellare Modular Creative Suite
+    LastUpdated: ""
+    License: Proprietary
+    LicenseURL: ""
+    Author: Stellare Modular
+    AuthorEmail: stellaremodular@gmail.com
+    AuthorWebsite: https://www.facebook.com/stellaremodular
+    ManualURL: https://drive.google.com/open?id=13sCM1uNfiNiS3sa91q61xfzoc22FdzIq
+    MetaModulePluginMaintainer: Stellare Modular
+    MetaModulePluginMaintainerEmail: stellaremodular@gmail.com
+    MetaModulePluginMaintainerURL: https://www.facebook.com/stellaremodular
+    MetaModuleManualURL: ""
+    Description: Stellare Modular Creative Suite Plugin for MetaModule
+    Type: external
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: StellareModular-CreativeSuite
+          Type: external
+          SDKVersion: "1.0"
+          Version: 2.1.0
+          MetaModulePluginLink: /dl/thirdparty/StellarModular/StellareModular-CreativeSuite.mmplugin
+          ListPath: /srv/dl/thirdparty/StellarModular/StellareModular-CreativeSuite.mmplugin
+          MetaModuleIncludedModules:
+            - Andromeda
+            - Qusia
+            - Sigma
+            - Nomlia
+            - Azular
+            - Delta
+            - Pelisia
+            - AL41
+            - AL14
+            - AL81
+            - AL18
+          MetaModuleIncludedSlugs:
+            - Andromeda
+            - Qusia
+            - Sigma
+            - Nomlia
+            - Azular
+            - Delta
+            - Pelisia
+            - AL41
+            - AL14
+            - AL81
+            - AL18
+Valley:
+    Slug: Valley
+    PluginName: Valley
+    LastUpdated: ""
+    License: GPL-3.0-or-later
+    LicenseURL: ""
+    Author: Valley
+    AuthorEmail: valley.audio.soft@gmail.com
+    AuthorWebsite: https://valleyaudio.github.io
+    ManualURL: https://valleyaudio.github.io
+    MetaModulePluginMaintainer: 4ms Company
+    MetaModulePluginMaintainerEmail: 4ms@4mscompany.com
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: ""
+    Type: external
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: Valley
+          Type: external
+          SDKVersion: "1.0"
+          Version: 2.4.5
+          MetaModulePluginLink: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/Valley.mmplugin
+          ListPath: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/Valley.mmplugin
+          MetaModuleIncludedModules:
+            - Interzone
+            - Amalgam
+            - Feline
+          MetaModuleIncludedSlugs:
+            - Interzone
+            - Amalgam
+            - Feline
+kocmoc:
+    Slug: kocmoc
+    PluginName: kocmoc
+    LastUpdated: ""
+    License: GPL-3.0-or-later
+    LicenseURL: ""
+    Author: janne808
+    AuthorEmail: janne808@radiofreerobotron.net
+    AuthorWebsite: ""
+    ManualURL: ""
+    MetaModulePluginMaintainer: 4ms Company
+    MetaModulePluginMaintainerEmail: 4ms@4mscompany.com
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: ""
+    Type: external
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: kocmoc
+          Type: external
+          SDKVersion: "1.0"
+          Version: 2.0.3
+          MetaModulePluginLink: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/kocmoc.mmplugin
+          ListPath: https://github.com/4ms/metamodule-plugin-examples/releases/download/plugin-api-v1.0.14/kocmoc.mmplugin
+          MetaModuleIncludedModules:
+            - SVF
+            - TRG
+            - LADR
+            - OP
+            - PHASR
+            - MUL
+            - SKF
+            - DDLY
+          MetaModuleIncludedSlugs:
+            - SVF-1
+            - TRG
+            - LADR
+            - OP
+            - PHASR
+            - MUL
+            - SKF
+            - DDLY

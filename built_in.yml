@@ -1,0 +1,536 @@
+4msCompany:
+    Slug: 4msCompany
+    PluginName: 4ms
+    LastUpdated: ""
+    License: GPL-3.0-or-later
+    LicenseURL: ""
+    Author: 4ms Company
+    AuthorEmail: 4ms@4mscompany.com
+    AuthorWebsite: https://4mscompany.com
+    ManualURL: https://metamodule.info/docs
+    MetaModulePluginMaintainer: 4ms Company
+    MetaModulePluginMaintainerEmail: ""
+    MetaModulePluginMaintainerURL: https://4mscompany.com
+    MetaModuleManualURL: ""
+    Description: ""
+    Type: built_in
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: 4msCompany
+          Type: built_in
+          SDKVersion: ""
+          Version: 2.0.6
+          MetaModulePluginLink: ""
+          ListPath: protected/plugins/built_in_dummy_plugins/4ms.mmplugin
+          MetaModuleIncludedModules:
+            - Atvert2
+            - BPF
+            - CLKD
+            - CLKM
+            - ComplexEG
+            - DEV
+            - DLD
+            - Detune
+            - Djembe
+            - Drum
+            - ENVVCA
+            - EnOsc
+            - FM
+            - Follow
+            - Freeverb
+            - Gate
+            - HPF
+            - KPLS
+            - L4
+            - LPG
+            - MNMX
+            - MPEG
+            - MultiLFO
+            - Noise
+            - Octave
+            - PEG
+            - PI
+            - Pan
+            - PitchShift
+            - Prob8
+            - QCD
+            - QPLFO
+            - RCD
+            - SCM
+            - SHEV
+            - SH
+            - SISM
+            - Seq8
+            - Slew
+            - Source
+            - StMix
+            - Switch14
+            - Switch41
+            - Tapo
+            - VCAM
+            - Verb
+          MetaModuleIncludedSlugs:
+            - Atvert2
+            - BPF
+            - CLKD
+            - CLKM
+            - ComplexEG
+            - DEV
+            - DLD
+            - Detune
+            - Djembe
+            - Drum
+            - ENVVCA
+            - EnOsc
+            - FM
+            - Follow
+            - Freeverb
+            - Gate
+            - HPF
+            - KPLS
+            - L4
+            - LPG
+            - MNMX
+            - MPEG
+            - MultiLFO
+            - Noise
+            - Octave
+            - PEG
+            - PI
+            - Pan
+            - PitchShift
+            - Prob8
+            - QCD
+            - QPLFO
+            - RCD
+            - SCM
+            - SHEV
+            - SH
+            - SISM
+            - Seq8
+            - Slew
+            - Source
+            - StMix
+            - Switch14
+            - Switch41
+            - Tapo
+            - VCAM
+            - Verb
+AudibleInstruments:
+    Slug: AudibleInstruments
+    PluginName: Cloned Instruments
+    LastUpdated: ""
+    License: GPL-3.0-or-later
+    LicenseURL: ""
+    Author: VCV
+    AuthorEmail: support@vcvrack.com
+    AuthorWebsite: https://vcvrack.com/
+    ManualURL: https://vcvrack.com/AudibleInstruments#manual
+    MetaModulePluginMaintainer: 4ms Company
+    MetaModulePluginMaintainerEmail: ""
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: Clones of Mutable Instruments modules, compatible with Audible Instruments VCV Rack plugin
+    Type: built_in
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: AudibleInstruments
+          Type: built_in
+          SDKVersion: ""
+          Version: 2.0.0
+          MetaModulePluginLink: ""
+          ListPath: protected/plugins/built_in_dummy_plugins/AudibleInstruments.mmplugin
+          MetaModuleIncludedModules:
+            - Algorithm VCO
+            - Algorithm VCO II
+            - Compressing Filter
+            - Envelopes
+            - Envelopes II
+            - Granulation
+            - Keyframes
+            - Mod Osc
+            - Modeler
+            - Multi-filter
+            - Quad Attenuverter
+            - Quad VCA
+            - Random Router
+            - Random-maker
+            - Rect-Logic-S&H
+            - Resonator
+            - Slope Sequencer
+            - Split-Combine
+            - Triple Mix
+            - VC Filter
+          MetaModuleIncludedSlugs:
+            - Braids
+            - Plaits
+            - Streams
+            - Tides
+            - Tides2
+            - Clouds
+            - Frames
+            - Warps
+            - Elements
+            - Shelves
+            - Blinds
+            - Veils
+            - Branches
+            - Marbles
+            - Kinks
+            - Rings
+            - Stages
+            - Multiples
+            - Shades
+            - Ripples
+Befaco:
+    Slug: Befaco
+    PluginName: Befaco
+    LastUpdated: ""
+    License: GPL-3.0-or-later
+    LicenseURL: ""
+    Author: VCV, Ewan Hemingway
+    AuthorEmail: support@vcvrack.com
+    AuthorWebsite: https://vcvrack.com/
+    ManualURL: ""
+    MetaModulePluginMaintainer: Ewan Hemingway, 4ms Company
+    MetaModulePluginMaintainerEmail: ""
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: ""
+    Type: built_in
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: Befaco
+          Type: built_in
+          SDKVersion: ""
+          Version: 2.7.1
+          MetaModulePluginLink: ""
+          ListPath: protected/plugins/built_in_dummy_plugins/Befaco.mmplugin
+          MetaModuleIncludedModules:
+            - ABC
+            - ADSR
+            - Burst
+            - ChoppingKinky
+            - DualAtenuverter
+            - EvenVCO
+            - HexmixVCA
+            - Kickall
+            - Mixer
+            - Morphader
+            - MotionMTR
+            - Muxlicer
+            - NoisePlethora
+            - Octaves
+            - Percall
+            - PonyVCO
+            - Rampage
+            - STMix
+            - SamplingModulator
+            - SlewLimiter
+            - SpringReverb
+            - StereoStrip
+            - Voltio
+          MetaModuleIncludedSlugs:
+            - ABC
+            - ADSR
+            - Burst
+            - ChoppingKinky
+            - DualAtenuverter
+            - EvenVCO
+            - HexmixVCA
+            - Kickall
+            - Mixer
+            - Morphader
+            - MotionMTR
+            - Muxlicer
+            - NoisePlethora
+            - Octaves
+            - Percall
+            - PonyVCO
+            - Rampage
+            - STMix
+            - SamplingModulator
+            - SlewLimiter
+            - SpringReverb
+            - StereoStrip
+            - Voltio
+HetrickCV:
+    Slug: HetrickCV
+    PluginName: HetrickCV
+    LastUpdated: ""
+    License: CC0-1.0
+    LicenseURL: ""
+    Author: Michael Hetrick
+    AuthorEmail: ""
+    AuthorWebsite: https://mhetrick.com
+    ManualURL: https://github.com/mhetrick/hetrickcv/blob/master/README.md
+    MetaModulePluginMaintainer: Michael Hetrick, 4ms Company
+    MetaModulePluginMaintainerEmail: ""
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: ""
+    Type: built_in
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: HetrickCV
+          Type: built_in
+          SDKVersion: ""
+          Version: 2.4.1
+          MetaModulePluginLink: ""
+          ListPath: protected/plugins/built_in_dummy_plugins/hetrickcv.mmplugin
+          MetaModuleIncludedModules:
+            - 2To4
+            - ASR
+            - AnalogToDigital
+            - BinaryGate
+            - BinaryNoise
+            - Bitshift
+            - Boolean3
+            - Chaos1Op
+            - Chaos2Op
+            - Chaos3Op
+            - ChaoticAttractors
+            - ClockedNoise
+            - Comparator
+            - Contrast
+            - Crackle
+            - DataCompander
+            - Delta
+            - DigitalToAnalog
+            - Dust
+            - Exponent
+            - FBSineChaos
+            - FlipFlop
+            - FlipPan
+            - GateDelay
+            - GateJunction
+            - GateJunctionExp
+            - Gingerbread
+            - LogicCombine
+            - MidSide
+            - MinMax
+            - PhaseDrivenSequencer
+            - PhaseDrivenSequencer32
+            - PhasorAnalyzer
+            - PhasorBurstGen
+            - PhasorDivMult
+            - PhasorEuclidean
+            - PhasorGates
+            - PhasorGates32
+            - PhasorGates64
+            - PhasorGen
+            - PhasorGeometry
+            - PhasorHumanizer
+            - PhasorMixer
+            - PhasorOctature
+            - PhasorQuadrature
+            - PhasorRandom
+            - PhasorRanger
+            - PhasorReset
+            - PhasorRhythmGroup
+            - PhasorShape
+            - PhasorShift
+            - PhasorStutter
+            - PhasorSubstepShape
+            - PhasorSwing
+            - PhasorTimetable
+            - PhasorToClock
+            - PhasorToLFO
+            - PhasorToWaveforms
+            - Probability
+            - RandomGates
+            - Rotator
+            - Rungler
+            - Scanner
+            - VectorMix
+            - Waveshaper
+            - XYToPolar
+          MetaModuleIncludedSlugs:
+            - 2To4
+            - ASR
+            - AnalogToDigital
+            - BinaryGate
+            - BinaryNoise
+            - Bitshift
+            - Boolean3
+            - Chaos1Op
+            - Chaos2Op
+            - Chaos3Op
+            - ChaoticAttractors
+            - ClockedNoise
+            - Comparator
+            - Contrast
+            - Crackle
+            - DataCompander
+            - Delta
+            - DigitalToAnalog
+            - Dust
+            - Exponent
+            - FBSineChaos
+            - FlipFlop
+            - FlipPan
+            - GateDelay
+            - GateJunction
+            - GateJunctionExp
+            - Gingerbread
+            - LogicCombine
+            - MidSide
+            - MinMax
+            - PhaseDrivenSequencer
+            - PhaseDrivenSequencer32
+            - PhasorAnalyzer
+            - PhasorBurstGen
+            - PhasorDivMult
+            - PhasorEuclidean
+            - PhasorGates
+            - PhasorGates32
+            - PhasorGates64
+            - PhasorGen
+            - PhasorGeometry
+            - PhasorHumanizer
+            - PhasorMixer
+            - PhasorOctature
+            - PhasorQuadrature
+            - PhasorRandom
+            - PhasorRanger
+            - PhasorReset
+            - PhasorRhythmGroup
+            - PhasorShape
+            - PhasorShift
+            - PhasorStutter
+            - PhasorSubstepShape
+            - PhasorSwing
+            - PhasorTimetable
+            - PhasorToClock
+            - PhasorToLFO
+            - PhasorToWaveforms
+            - Probability
+            - RandomGates
+            - Rotator
+            - Rungler
+            - Scanner
+            - VectorMix
+            - Waveshaper
+            - XYToPolar
+NonlinearCircuits:
+    Slug: NonlinearCircuits
+    PluginName: NonlinearCircuits
+    LastUpdated: ""
+    License: CC0-1.0
+    LicenseURL: ""
+    Author: Michael Hetrick
+    AuthorEmail: ""
+    AuthorWebsite: https://mhetrick.com
+    ManualURL: https://github.com/mhetrick/nonlinearcircuits
+    MetaModulePluginMaintainer: Michael Hetrick, 4ms Company
+    MetaModulePluginMaintainerEmail: ""
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: ""
+    Type: built_in
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: NonlinearCircuits
+          Type: built_in
+          SDKVersion: ""
+          Version: 2.2.0
+          MetaModulePluginLink: ""
+          ListPath: protected/plugins/built_in_dummy_plugins/nonlinearcircuits.mmplugin
+          MetaModuleIncludedModules:
+            - 4Seq
+            - Cipher
+            - BOOLs
+            - DivideConquer
+            - DivineCMOS
+            - DoubleNeuron
+            - Genie
+            - LetsSplosh
+            - Neuron
+            - Numberwang
+            - Router
+            - Segue
+            - SlothApathy
+            - SlothInertia
+            - SlothTorpor
+            - SquidAxon
+            - Statues
+            - TripleSloth
+          MetaModuleIncludedSlugs:
+            - 4Seq
+            - Cipher
+            - BOOLs
+            - DivideConquer
+            - DivineCMOS
+            - DoubleNeuron
+            - Genie
+            - LetsSplosh
+            - Neuron
+            - Numberwang
+            - Router
+            - Segue
+            - SlothApathy
+            - SlothInertia
+            - SlothTorpor
+            - SquidAxon
+            - Statues
+            - TripleSloth
+Valley:
+    Slug: Valley
+    PluginName: Valley
+    LastUpdated: ""
+    License: GPL-3.0-or-later
+    LicenseURL: ""
+    Author: Valley
+    AuthorEmail: valley.audio.soft@gmail.com
+    AuthorWebsite: https://valleyaudio.github.io
+    ManualURL: https://valleyaudio.github.io
+    MetaModulePluginMaintainer: 4ms Company
+    MetaModulePluginMaintainerEmail: ""
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: ""
+    Type: built_in
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: Valley
+          Type: built_in
+          SDKVersion: ""
+          Version: 2.4.5
+          MetaModulePluginLink: ""
+          ListPath: protected/plugins/built_in_dummy_plugins/Valley.mmplugin
+          MetaModuleIncludedModules:
+            - Plateau
+            - Topograph
+            - uGraph
+          MetaModuleIncludedSlugs:
+            - Plateau
+            - Topograph
+            - uGraph
+eightfold:
+    Slug: eightfold
+    PluginName: eightfold
+    LastUpdated: ""
+    License: GPL-3.0-only
+    LicenseURL: ""
+    Author: scanner darkly
+    AuthorEmail: ""
+    AuthorWebsite: https://github.com/scanner-darkly
+    ManualURL: https://github.com/scanner-darkly/eightfold/wiki
+    MetaModulePluginMaintainer: Scanner Darkly, 4ms Company
+    MetaModulePluginMaintainerEmail: ""
+    MetaModulePluginMaintainerURL: ""
+    MetaModuleManualURL: ""
+    Description: ""
+    Type: built_in
+    MetaModulePluginCommercial: false
+    Versions:
+        - Slug: eightfold
+          Type: built_in
+          SDKVersion: ""
+          Version: 2.0.0
+          MetaModulePluginLink: ""
+          ListPath: protected/plugins/built_in_dummy_plugins/eightfold.mmplugin
+          MetaModuleIncludedModules:
+            - SDOrcasHeartV2
+          MetaModuleIncludedSlugs:
+            - SDOrcasHeartV2
