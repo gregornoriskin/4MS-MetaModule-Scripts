@@ -17,9 +17,8 @@ else:
 
 settingsPath = f"{vcvPath}/settings.json"
 pluginPath = "./plugins.yml"
-builtinPath = "./built_in.yml"
 
-print("This script will import the modules in plugins.yml and built_in.yml into VCV Rack")
+print("This script will import the builtin and plugin modules in plugins.yml into VCV Rack")
 print() 
 
 # Reminder to close VCV Rack
@@ -35,15 +34,6 @@ try:
 except FileNotFoundError:
     print(f"Error: Plugin file not found: {pluginPath}")
     exit()
-
-# load built_in.yml
-print("Status: Loading built_in.yml...")
-try:
-    with open(builtinPath, "r") as builtinFile:
-        builtinData = yaml.safe_load(builtinFile)
-except FileNotFoundError:
-    print(f"Error: Built-in file not found: {builtinPath}")
-    exit()  
 
 # Load settings.json
 print("Status: Loading VCV Rack settings file...")
@@ -62,22 +52,22 @@ except json.JSONDecodeError as e:
 print("Status: Getting installed module list from settings.json...")
 moduleInfos = settings.get("moduleInfos", {})
 
-# Get the supported modules names from the yaml files and add to favorites
+# Get the supported modules names from the yaml file and add to favorites
 print("Status: Getting supported module names from plugin and builtin data and adding to VCV Rack favorites...")           
-for moduleData in [builtinData, pluginData]:
-    for slugData in moduleData.values():
-        for version in slugData.get("Versions", {}):
-            slugName = slugData.get("Slug", "")
-            for includedSlug in version.get("MetaModuleIncludedSlugs", {}):          
+for moduleCategory in pluginData.values(): # built_in, external
+    for author in moduleCategory.values(): # AudibleInstruments, Befaco, etc.
+        slug = author.get("Slug", "")
+        for version in author.get("Versions", {}): # Versions
+            for module in version.get("MetaModuleIncludedModules", {}):
                 # Add the module to favorites if it is not already there
                 # Note this may be that the module is not installed or that it has not settings.
                 # Assert: Having a favorite setting for a module that is not installed should not cause any issues.
-                if slugName not in moduleInfos:
-                    moduleInfos[slugName] = {}
-                if includedSlug not in moduleInfos[slugName]:
-                    moduleInfos[slugName][includedSlug] = {}
-                print(f"Status: Adding {includedSlug} from {slugName} to favorites")
-                moduleInfos[slugName][includedSlug]["favorite"] = True
+                if slug not in moduleInfos:
+                    moduleInfos[slug] = {}
+                if module not in moduleInfos[slug]:
+                    moduleInfos[slug][module] = {}
+                print(f"Status: Adding {slug} from {module} to favorites")
+                moduleInfos[slug][module]["favorite"] = True
 
 # Update settings.json with favorite modules
 print("Status: Updating settings.json...")

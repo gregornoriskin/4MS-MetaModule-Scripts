@@ -20,7 +20,6 @@ settingsPath = f"{vcvPath}/settings.json"
 
 # URL to the YAML files
 pluginUrl = "https://metamodule.4ms.info/dl/plugins.yml"
-builtinUrl = "https://metamodule.4ms.info/dl/built_in.yml"
 
 print("This script will import the supported module list from metamodule.info into VCV Rack as favorite modules")
 print() 
@@ -30,22 +29,14 @@ print("If you run this script while VCV Rack is open, you will get unpredictable
 print("Close VCV Rack and press Enter to continue, or press Ctrl+C to cancel.")
 input()
 
-# Get the latest plugin and builtin yaml files
-print("Status: Fetching plugin and builtin data...")
+# Get the latest plugin yaml file
+print("Status: Fetching plugin data...")
 try:
     with urllib.request.urlopen(pluginUrl) as url:
         pluginData = yaml.safe_load(url)
         print("Status: Plugin data fetched successfully")
 except urllib.error.URLError as e:
     print(f"Error: Failed to fetch plugin data: {e}")
-    exit()
-
-try:
-    with urllib.request.urlopen(builtinUrl) as url:
-        builtinData = yaml.safe_load(url)
-        print("Status: Builtin data fetched successfully")
-except urllib.error.URLError as e:
-    print(f"Error: Failed to fetch builtin data: {e}")
     exit()
 
 # Load settings.json
@@ -65,22 +56,22 @@ except json.JSONDecodeError as e:
 print("Status: Getting installed module list from settings.json...")
 moduleInfos = settings.get("moduleInfos", {})
 
-# Get the supported modules names from the yaml files and add to favorites
+# Get the supported modules names from the yaml file and add to favorites
 print("Status: Getting supported module names from plugin and builtin data and adding to VCV Rack favorites...")           
-for moduleData in [builtinData, pluginData]:
-    for slugData in moduleData.values():
-        for version in slugData.get("Versions", {}):
-            slugName = slugData.get("Slug", "")
-            for includedSlug in version.get("MetaModuleIncludedSlugs", {}):          
+for moduleCategory in pluginData.values(): # built_in, external
+    for author in moduleCategory.values(): # AudibleInstruments, Befaco, etc.
+        slug = author.get("Slug", "")
+        for version in author.get("Versions", {}): # Versions
+            for module in version.get("MetaModuleIncludedModules", {}):
                 # Add the module to favorites if it is not already there
                 # Note this may be that the module is not installed or that it has not settings.
                 # Assert: Having a favorite setting for a module that is not installed should not cause any issues.
-                if slugName not in moduleInfos:
-                    moduleInfos[slugName] = {}
-                if includedSlug not in moduleInfos[slugName]:
-                    moduleInfos[slugName][includedSlug] = {}
-                print(f"Status: Adding {includedSlug} from {slugName} to favorites")
-                moduleInfos[slugName][includedSlug]["favorite"] = True
+                if slug not in moduleInfos:
+                    moduleInfos[slug] = {}
+                if module not in moduleInfos[slug]:
+                    moduleInfos[slug][module] = {}
+                print(f"Status: Adding {slug} from {module} to favorites")
+                moduleInfos[slug][module]["favorite"] = True
                     
 # Update settings.json with favorite modules
 print("Status: Updating settings.json...")
