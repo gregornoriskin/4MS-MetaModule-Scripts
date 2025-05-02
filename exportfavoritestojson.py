@@ -10,9 +10,16 @@ if os_name == "Windows":
     vcvPath = f"{userPath}/AppData/Local/Rack2"
 elif os_name == "Darwin":
     vcvPath = f"{userPath}/Library/Application Support/Rack2"
+elif os_name == "Linux":
+    vcvPath = f"{userPath}/.Rack2"
 else:
-    print(f"Unsupported operating system: {os_name}")
-    exit()
+    print(f"Error: Unsupported operating system: {os_name}")
+    exit(1)
+
+# Verify VCV Rack directory exists
+if not os.path.exists(vcvPath):
+    print(f"Error: VCV Rack directory not found: {vcvPath}")
+    exit(1)
 
 settingsPath = f"{vcvPath}/settings.json"
 favoriteModulesPath = "./favoriteModules.json"
@@ -38,11 +45,15 @@ except json.JSONDecodeError as e:
     exit()
 
 moduleInfos = settings.get("moduleInfos")
+if not moduleInfos:
+    print("Error: No module information found in settings file")
+    exit(1)
 
+print(f"Found {len(moduleInfos)} companies with modules")
 favoriteModules = {}
 
 # Get favorite modules
-print("Status: Getting favorite modules...")
+print("\nExtracting favorite modules...")
 for companyName, modules in moduleInfos.items():
     for moduleName, moduleSettings in modules.items():
         if moduleSettings.get("favorite"):
@@ -53,7 +64,10 @@ for companyName, modules in moduleInfos.items():
 
 
 # Save favorite modules to favoriteModules.json
-print("Status: Saving favorite modules to favoriteModules.json") 
+if not favoriteModules:
+    print("\nWarning: No favorite modules found")
+
+print("\nSaving favorite modules to favoriteModules.json...") 
 try:
     with open(favoriteModulesPath, "w") as file:
         json.dump(favoriteModules, file, indent=4)

@@ -53,21 +53,23 @@ print("Status: Getting installed module list from settings.json...")
 moduleInfos = settings.get("moduleInfos", {})
 
 # Get the supported modules names from the yaml file and add to favorites
-print("Status: Getting supported module names from plugin and builtin data and adding to VCV Rack favorites...")           
-for moduleCategory in pluginData.values(): # built_in, external
-    for author in moduleCategory.values(): # AudibleInstruments, Befaco, etc.
-        slug = author.get("Slug", "")
-        for version in author.get("Versions", {}): # Versions
-            for module in version.get("MetaModuleIncludedModules", {}):
-                # Add the module to favorites if it is not already there
-                # Note this may be that the module is not installed or that it has not settings.
-                # Assert: Having a favorite setting for a module that is not installed should not cause any issues.
+print("Status: Getting supported module names from plugin and builtin data and adding to VCV Rack favorites...")     
+builtins = pluginData.get("built_in", {})
+external = pluginData.get("external", {}) 
+moduleData = {**builtins, **external} # Merge built_in and external data     
+
+for plugin_name, plugin_info in moduleData.items(): # built_in, external
+    slug = plugin_info.get("Slug", "") 
+    included_modules = plugin_info.get("MetaModuleIncludedModules", {})
+    for module_name, module_info in included_modules.items(): # AudibleInstruments, Befaco, etc.
+        vcv_slug = module_info.get("VCVSlug", "")
+        if vcv_slug:
                 if slug not in moduleInfos:
                     moduleInfos[slug] = {}
-                if module not in moduleInfos[slug]:
-                    moduleInfos[slug][module] = {}
-                print(f"Status: Adding {slug} from {module} to favorites")
-                moduleInfos[slug][module]["favorite"] = True
+                if vcv_slug not in moduleInfos[slug]:
+                    moduleInfos[slug][vcv_slug] = {}
+                print(f"Status: Adding {slug} from {vcv_slug} to favorites")
+                moduleInfos[slug][vcv_slug]["favorite"] = True
 
 # Update settings.json with favorite modules
 print("Status: Updating settings.json...")
